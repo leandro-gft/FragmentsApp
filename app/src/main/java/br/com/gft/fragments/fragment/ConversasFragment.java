@@ -29,7 +29,7 @@ public class ConversasFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_conversas, container, false);
 
         textConversa = view.findViewById(R.id.textConversa);
-        textConversa.setText("Conversas confirmados");
+        textConversa.setText("Conversas confirmadas");
 
 
         return view;

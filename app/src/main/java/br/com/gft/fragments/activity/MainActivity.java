@@ -42,9 +42,6 @@ public class MainActivity extends AppCompatActivity {
         btnConversas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.frameConteudo, conversasFragment);
-                transaction.commit();
 
                 Snackbar.make(v, "Você clicou em Conversas", Snackbar.LENGTH_LONG).
                         setAction("Confirmar", new View.OnClickListener() {
